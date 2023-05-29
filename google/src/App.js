@@ -7,7 +7,7 @@ const StyledContainer = styled.div`
 function App() {
   return (
     <StyledContainer>
-      <div className="header">Header</divcl>
+      <div className="header">Header</div>
       <div className="main">Main</div>
       <div>Country</div>
       <div>Footer</div>
