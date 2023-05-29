@@ -1,5 +1,18 @@
+import styled from "styled-components";
+
+const StyledContainer = styled.div`
+  color: red;
+`;
+
 function App() {
-  return <div>Hello Google</div>;
+  return (
+    <StyledContainer>
+      <div className="header">Header</divcl>
+      <div className="main">Main</div>
+      <div>Country</div>
+      <div>Footer</div>
+    </StyledContainer>
+  );
 }
 
 export default App;
