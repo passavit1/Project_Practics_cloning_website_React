@@ -42,7 +42,34 @@ const StyledContainer = styled.div`
 
   .main {
     height: 85%;
-    outline: 0.5px red solid;
+
+    .containerMain {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+
+      img {
+        scale: 0.95;
+      }
+
+      .searchbox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        input {
+          background: #202124;
+          border: 1px solid #5f6368;
+          box-shadow: none;
+          border-radius: 24px;
+          min-height: 44px;
+          width: 30%;
+        }
+      }
+    }
   }
 
   .country {
@@ -86,7 +113,14 @@ function App() {
         <div></div>
       </div>
       <div className="main">
-        <img src={logoWhite} alt="" />
+        <div className="containerMain">
+          <div className="logo">
+            <img src={logoWhite} alt="" />
+          </div>
+          <div className="searchbox">
+            <input></input>
+          </div>
+        </div>
       </div>
       <div className="country">Country</div>
       <div className="footer">Footer</div>
