@@ -61,7 +61,7 @@ function App() {
         </div>
         <div></div>
       </div>
-      <div className="main">Main</div>
+      <div className="main">main</div>
       <div className="country">Country</div>
       <div className="footer">Footer</div>
     </StyledContainer>
