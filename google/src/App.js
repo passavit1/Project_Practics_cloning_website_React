@@ -112,7 +112,7 @@ function App() {
 
         <div></div>
       </div>
-      <div className="main">main</div>
+      <div className="main">main component</div>
       <div className="main">
         <div className="containerMain">
           <div className="logo">
